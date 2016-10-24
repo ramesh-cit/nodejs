@@ -1,0 +1,4 @@
+# Create task
+curl -XPOST http://localhost:3000/todos -d 'name=Master%20Routes&completed=false&note=soon...'
+# List tasks
+curl -XGET http://localhost:3000/todos
