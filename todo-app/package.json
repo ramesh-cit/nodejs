@@ -4,12 +4,19 @@
   "description": "Ramesh first rest-api using nodejs",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./bin/www"
   },
   "author": "Ramesh",
   "license": "ISC",
   "dependencies": {
+    "body-parser": "^1.15.2",
+    "cookie-parser": "^1.4.3",
+    "ejs": "^2.5.2",
     "express": "^4.14.0",
-    "mongoose": "^4.6.4"
+    "mongoose": "^4.6.4",
+    "morgan": "^1.7.0",
+    "path": "^0.12.7",
+    "serve-favicon": "^2.3.0"
   }
 }

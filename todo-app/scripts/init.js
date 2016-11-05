@@ -2,7 +2,7 @@ console.log('Creating database for ToDo....');
 // Load mongoose package
 var mongoose = require('mongoose');
 // Connect to MongoDB and create/use database called todoAppTest
-mongoose.connect('mongodb://localhost/todoAppTest');
+mongoose.connect('mongodb://localhost/todo-api');
 console.log('Created database !');
 console.log('Creating Schema ... ')
 // Create a schema
